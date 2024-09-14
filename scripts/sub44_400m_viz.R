@@ -73,7 +73,7 @@ sub44_400m_plot <- plot_data %>%
   theme(
     text = element_text(family = "Roboto"),
     plot.margin = margin(10, 20, 10, 20), 
-    plot.background = element_rect(fill = "white"),
+    plot.background = element_rect(fill = "white", color = "white"),
     plot.title.position = "plot",
     plot.caption.position = "plot",
     plot.title = element_markdown(size = 16, face = "bold", margin = margin(t = 5, b = 10)),
@@ -82,7 +82,7 @@ sub44_400m_plot <- plot_data %>%
     axis.text.y = element_text(size = 11, hjust = 1, margin = margin(r = -25))
   ) +
   labs(
-    title = "<span style = 'color:#3498DB;'>Michael Johnson</span> has more than twice as many sub 44 second 400m performances as any other athlete",
+    title = "<span style = 'color:#2471A3;'>Michael Johnson</span> has more than twice as many sub 44 second 400m performances as any other athlete",
     subtitle = "Number of sub 44 second 400m performances",
     caption = c("Data: World Athletics\nViz: Tim Fulton, PhD")
   ) +
@@ -94,7 +94,7 @@ sub44_400m_plot <- plot_data %>%
     hjust = 1.5,
     color = "white"
   ) +
-  scale_fill_manual(values = c("#3498DB", "gray60")) +
+  scale_fill_manual(values = c("#2471A3", "gray60")) +
   guides(fill = "none")
   
 
