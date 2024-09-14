@@ -78,7 +78,7 @@ sub44_400m_plot <- plot_data %>%
     plot.caption.position = "plot",
     plot.title = element_markdown(size = 16, face = "bold", margin = margin(t = 5, b = 10)),
     plot.subtitle = element_markdown(size = 13, margin = margin(b = 15)),
-    plot.caption = element_text(size = 9, face = "italic", hjust = 1, margin = margin(t = 10)),
+    plot.caption = element_text(size = 9, face = "italic", hjust = 0, margin = margin(t = 15)),
     axis.text.y = element_text(size = 11, hjust = 1, margin = margin(r = -25))
   ) +
   labs(
