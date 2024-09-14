@@ -1,4 +1,4 @@
-# Sub 44 Second 400m performances
+# Sub 44 Second 400m Performances
 
 This repo contains the code to make the visualization below.
 
