@@ -91,8 +91,9 @@ sub44_400m_plot <- plot_data %>%
     width = 0.8
   ) +
   geom_text(
-    hjust = 1.5,
-    color = "white"
+    hjust = 1.6,
+    color = "white",
+    fontface = "bold"
   ) +
   scale_fill_manual(values = c("#2471A3", "gray60")) +
   guides(fill = "none")
@@ -108,6 +109,4 @@ ggsave(
   dpi = 600,
   units = "in"
 )
-  
-  
   
