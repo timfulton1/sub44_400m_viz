@@ -102,7 +102,7 @@ sub44_400m_plot <- plot_data %>%
 
 # Save figure
 ggsave(
-  "plots/sub44_400m_plot.png", 
+  "02_plots/sub44_400m_plot.png", 
   plot = sub44_400m_plot,
   scale = 1, 
   width = 11, 
