@@ -59,7 +59,8 @@ plot_data <- clean_data %>%
   tally() %>% 
   arrange(desc(n)) %>% 
   mutate(mj_id = ifelse(competitor == "Michael Johnson", "mj", "not_mj"))
-  
+
+#write.csv(plot_data, file = "plot_data.csv")
 
 #### Plotting  ---------------------------------------------------------------
 
